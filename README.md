@@ -8,11 +8,10 @@ A one-page newspaper front page that sums up Sunday 22 November 2026: 35
 verified stories across 7 regions, drawn entirely in code.
 
 **The page.** Three hero stories (COP31, the 186-drone night over Ukraine,
-Iran's rolling power cuts), ten more stories each with its own illustration
-and a colored header strip, 22 one-liners, a 6-number strip under the
-headline, a UTC timeline, a numbered world map, a DATE CHECK box, and a
-legend explaining the status tag on every story (CONFIRMED / CLAIM /
-REPORTED / PENDING / ONGOING).
+Iran's rolling power cuts), ten more stories each with its own illustration,
+22 one-liners, a 6-number strip under the headline, a UTC timeline, a numbered
+world map, a DATE CHECK box, and a legend explaining the status tag on every
+story (CONFIRMED / CLAIM / REPORTED / PENDING / ONGOING).
 
 ## Run it
 
@@ -29,7 +28,7 @@ Deterministic: two runs write byte-identical output.
   the page into a framebuffer, renders text from the font atlas, and encodes
   the PNG itself.
 - `font-atlas.bin` — pre-rendered DejaVu glyph atlas (data, not code).
-- `NOTES.md` — the top-10 dissection, what v7 changes vs v6, and the honest
+- `NOTES.md` — the top-10 dissection, what v6 changes vs v5, and the honest
   limits.
 
 ---
